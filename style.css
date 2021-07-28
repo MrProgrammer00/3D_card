@@ -101,3 +101,13 @@ body   {
     transform: translateZ(40px);
     margin: 0;
 }
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    .container {
+        transform: scale(2);
+    }
+  }
